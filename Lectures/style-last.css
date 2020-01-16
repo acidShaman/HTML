@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.row div{
+    padding: 50px;
+    float: left;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.bg_red{
+
+    background: red;
+}
+
+.bg_green{
+    background: greenyellow;
+}
+
+.bg_blue{
+    background: blueviolet;
+}
+
+.col- 1{
+    width: 25px;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px){
+    .w-33{
+        width: 100%;
+    }   
+    
+    .bg_blue{
+        background: chocolate;
+    }
+}
+.container{
+    width: ;
+}
+
+.lalka{
+    position: relative;
+    left:50px;
+}
+
+.lalka li{
+    list-style: none;
+
+}
+
+.lalka li::before{
+    content: "★";
+   font-family: "Font Awesome 5 Free";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight: 900;
+}
+
+input[type="password"]{
+    background: black;
+    color: whitesmoke;
+}
+
+

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.xxx {
+    width: 600px;
+    background: orange;
+    font-size: 5rem;
+    margin: auto;
+    border: 5px solid red;
+    text-align: center;
+    /* padding: 10px; */
+
+}
+/*.xxx a:nth-child(1){
+    color: white;
+    text-decoration: none;
+    background: black;
+    display: block;
+} */
+.xxx a{
+    color: white;
+    text-decoration: none;
+    background: black;
+    display: block;
+    transition-duration: 0.25s;
+}
+.list1 li li{
+    color: red;
+}
+
+.list2 li li{
+    color: #1300c1;
+}
+
+p {
+    color: red;
+}
+.list1 li::selection{
+    background: pink;
+}
+
+.xxx a:hover{
+    background: pink;
+    color: lime;
+    font-size: 7rem; 
+    transform: rotate(-3deg); 
+}
+

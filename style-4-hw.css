@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: grey;
+}
+/*========navigation settings========*/
+.nav{
+    position: fixed;
+    left: 20%;
+    z-index: 9999 !important;
+    margin: 0 auto;
+    width: 600px;
+    background: radial-gradient(#e66465, #9198e5);
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.nav a{
+    margin:0 8px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0px;
+    background: yellowgreen;
+    color: tomato;
+    transition: 0.5s;
+    border-radius: 20%;
+    border: 2px solid black;
+    text-shadow: black 3px 3px 3px;
+    font-size: 1.2rem;
+}
+
+.nav a:hover{
+    background: blueviolet;
+    color: chartreuse;
+}
+
+/*========menu settings========*/
+
+.menu{
+    margin-top: 10px;
+}
+
+.menu li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.menu a{
+    text-align: center;
+    width: 150px;
+    background: darkorchid;
+    color: gold;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 2px 0;
+}
+
+.menu a:hover{
+    width: 300px;
+}
+
+.menu li:nth-child(1) a:hover{
+    background: red;
+}
+
+.menu li:nth-child(2n) a:hover{
+    background: greenyellow;
+}
+
+.menu li:nth-child(8) a:hover{
+    background: palevioletred;
+}
+
+
+/*========table settings========*/
+
+.table{
+    border: 1px solid black;
+}
+
+.table th{
+    border: 1px solid black;
+}
+
+.table td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(2n) td{
+    width: 100px;
+    height: 100px;
+}
+
+.table thead tr:nth-child(2) th,
+.table tbody tr td{
+    background: pink;
+}
+
+.table thead tr:nth-child(2) th:nth-child(6),
+.table tbody tr td:nth-child(6){
+    background: palevioletred;
+}
+
+.table thead tr:nth-child(2) th:nth-child(7),
+.table tbody tr td:nth-child(7){
+    background: firebrick;
+}
+
+/*.table tbody tr:nth-child(2n+1) td:nth-child(7):hover,
+.table tbody tr:nth-child(-n+2) td:nth-child(-n+2):hover,
+.table tbody tr:nth-child(9) td:nth-child(6):hover,
+.table thead tr:nth-child(2) th:hover,
+.table thead tr:nth-child(2) th:nth-child(7):hover,
+.table tbody tr td:nth-child(6):hover,
+.table tbody tr td:nth-child(7):hover{
+    background: tomato;
+}*/
+
+.table td:hover,
+.table th:hover{
+    background: tomato !important;
+}
+
+
+
+.table tbody tr:nth-child(2n+1) td:nth-child(7),
+.table tbody tr:nth-child(-n+2) td:nth-child(-n+2),
+.table tbody tr:nth-child(9) td:nth-child(6){
+    background: grey;
+}
+
+.table td,th{
+    transition: 0.5s;
+}
+
+
+/*========button settings========*/
+.button{
+    
+    margin: 15px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    
+}
+.button a{
+    border: 2px solid blue;
+    line-height: 3.2;
+    background: midnightblue;
+    color: greenyellow;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 15%;
+    transition: 0.5s;
+}
+
+.button a:hover{
+    background: lime;
+    color: midnightblue;
+}
+
+/*========bottom menu========*/
+
+.bot-nav-2 li,
+.bot-nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+.bot-nav-2 a,
+.bot-nav a{
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.bot-nav a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+
+}
+
+.bot-nav a::after{
+    padding-left: 5px;
+    color: red;
+    content: " |";
+    text-decoration: ;
+}
+
+
+
+.bot-nav li:last-child a::after{
+    content: "";
+}
+
+.bot-nav-2 a::after{
+    padding-left: 5px;
+    content: " >";
+}
+
+.bot-nav-2 li:nth-child(3) a::after{
+    content: "";
+}
+
+iframe{
+    position: absolute;
+}
+
+
+
+
+
+

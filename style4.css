@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 620px;
+    margin: 0 auto;
+    background: pink;
+}
+
+.nav li{
+
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a{
+    display: block;
+    color: rebeccapurple;
+    width: 100px;
+    background: orangered;
+    text-align: center;
+    color: snow;
+    text-decoration: none;
+    /*height: 50px;
+    line-height: 3.1; */
+    padding: 15px 0;
+    border-radius: 10%;
+    text-shadow: 5px 5px 2px black;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+}
+
+.nav a:hover{
+    background: lime;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.menu a{
+    width: 200px;
+    background: black;
+    display: block;
+    text-align: center;
+    color: snow;
+    text-decoration: none;
+    padding: 2px 0;
+    transition: .5s;
+}
+
+.menu a:hover{
+    width: 400px;
+}
+
+.menu  li:nth-child(1) a:hover{
+    background: orangered;
+}

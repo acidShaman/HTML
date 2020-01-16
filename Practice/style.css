@@ -1,0 +1,38 @@
+body{
+    background: beige;
+}
+
+ .margin-top{
+            margin-top: 100px;
+}    
+
+ul{
+    color: red;
+}
+
+ol{
+    color: green
+}
+
+table{
+    border-collapse: collapse;    /*  убирает паддинг между ячейками таблицы  */
+    margin-top: 40px;
+}
+
+table,th {
+    border: 2px solid;  
+}
+
+td {
+    
+    border: 1px solid ;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+.top{
+    text-decoration: none;
+    text-transform: uppercase;
+}
